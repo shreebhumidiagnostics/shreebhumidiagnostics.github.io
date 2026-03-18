@@ -3,33 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhatsApp Business API Verification</title>
+    <title>Shreebhumi Diagnostics</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
+            background: linear-gradient(120deg, #ece9f7 0%, #d1d8e8 100%);
+            min-height: 100vh;
             display: flex;
-            justify-content: center;
             align-items: center;
-            height: 100vh;
-            background-color: #f8f9fa;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        .container {
+        .business-card {
+            background: #fff;
+            padding: 2.3rem 2.5rem 2rem 2.5rem;
+            max-width: 410px;
+            border-radius: 12px;
+            box-shadow: 0 6px 36px 0 rgba(110, 106, 221, 0.09);
+        }
+        .verified-badge {
+            display: inline-block;
+            margin-bottom: 10px;
+            color: #fff;
+            background-color: #28a745;
+            border-radius: 50px;
+            padding: 6px 20px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #352f44;
+            margin-bottom: 0.45rem;
+        }
+        .subtitle {
+            color: #7367a7;
+            font-size: 1.09rem;
+            margin-bottom: 1.5rem;
+        }
+        .info-section {
+            margin-bottom: 1.1rem;
+        }
+        .info-label {
+            color: #484848;
+            font-size: 0.98rem;
+            font-weight: 600;
+        }
+        .info-value {
+            color: #666;
+            font-size: 1rem;
+        }
+        .footer {
             text-align: center;
-            padding: 20px;
-            border-radius: 8px;
-            background-color: #ffffff;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-        }
-        .badge {
-            font-size: 1.5em;
+            color: #aaa;
+            font-size: 0.88rem;
+            padding-top: 18px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>WhatsApp Business API Verification</h1>
-        <h2>Business Name: <strong>Shreebhumi Diagnostics</strong></h2>
-        <div class="badge badge-success">Verified</div>
+    <div class="business-card">
+        <span class="verified-badge">&#10004; Verified Business</span>
+        <h1>Shreebhumi Diagnostics</h1>
+        <div class="subtitle">Registered Diagnostic Laboratory</div>
+        <div class="info-section">
+            <div class="info-label">Services Offered</div>
+            <div class="info-value">Pathology Laboratory Testing<br>Biopsy Services</div>
+        </div>
+        <div class="info-section">
+            <div class="info-label">Registered Address</div>
+            <div class="info-value">Satsanga Ashram Road, Silchar, Assam, 788007</div>
+        </div>
+        <div class="footer">
+            This website is for independent verification of Shreebhumi Diagnostics as a genuine pathology business.<br>
+            No appointments, promotions, or online services are provided here.<br>
+            &copy; 2026 Shreebhumi Diagnostics
+        </div>
     </div>
 </body>
 </html>
